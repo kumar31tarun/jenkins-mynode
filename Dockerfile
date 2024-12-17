@@ -1,4 +1,4 @@
-FROM node
+FROM node:23-alpine3.20
 WORKDIR /src
 COPY . .
 RUN npm install express
